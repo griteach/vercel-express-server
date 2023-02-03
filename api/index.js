@@ -31,7 +31,6 @@ const startApolloServer = async (app, httpServer) => {
   await server.start();
   server.applyMiddleware({ app });
 };
-
 startApolloServer(app, httpServer);
 
 export default httpServer;
